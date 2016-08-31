@@ -1,0 +1,6 @@
+ds-interview-database.db
+build/
+classes/
+.idea/
+.gradle/
+*.iml
