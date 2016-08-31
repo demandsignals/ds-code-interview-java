@@ -21,8 +21,8 @@ com.ds.interview.dao | Data access classes
 com.ds.interview.model | Domain model classes
 
 ## Database 
-When the app is started, a sqlite database file will be created on the repo. This is not to be committed
-in the project turn in.
+Before starting app, the database must be created. To do this run this in the commandline:
+``` ./gradlew setupDatabase ```
 
 ## To build
 ``` ./gradlew assemble war ```
